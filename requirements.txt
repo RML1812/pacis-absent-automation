@@ -1,6 +1,5 @@
 keras_ocr==0.9.3
 Kivy==2.2.0
-Kivy_examples==2.2.1
 numpy==1.23.5
 opencv_contrib_python==4.8.1.78
 opencv_python==4.7.0.72
