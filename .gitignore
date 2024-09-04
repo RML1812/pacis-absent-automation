@@ -1,0 +1,19 @@
+# Ignore compiled bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore JSON configuration files
+*.json
+
+# Ignore CSV files (for sensitive data or generated output)
+*.csv
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and virtual environment files
+.env
+*.env
+.venv/
+env/
