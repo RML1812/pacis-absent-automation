@@ -69,4 +69,7 @@ def read_captcha(img):
     # Extract the text from the predictions
     captcha_text = ' '.join([text for text, box in prediction_groups[0]])
     
+    # Trim any spaces from the beginning and end, and remove excess spaces between words
+    captcha_text = ' '.join(captcha_text.split())
+    
     return captcha_text
