@@ -1,6 +1,5 @@
 keras_ocr==0.9.3
 Kivy==2.2.0
-Kivy_examples==2.2.1
 numpy==1.23.5
 opencv_contrib_python==4.8.1.78
 opencv_python==4.7.0.72
@@ -9,3 +8,4 @@ pandas==2.0.3
 Pillow==10.4.0
 scikit_learn==1.5.1
 selenium==4.24.0
+tensorflow==2.17.0
