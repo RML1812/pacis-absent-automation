@@ -287,8 +287,10 @@ class AutoAbsent(BoxLayout):
             # Schedule a UI update back in the main thread after the thread completes
             if result:
                 Clock.schedule_once(lambda dt: self.update_attendance_status(id_matkul, success=True))
+                self.abort_button.disabled = True
             else:
                 Clock.schedule_once(lambda dt: self.update_attendance_status(id_matkul, success=False))
+                self.abort_button.disabled = True
         
         # Start the attendance task in a separate thread
         threading.Thread(target=attendance_task).start()
